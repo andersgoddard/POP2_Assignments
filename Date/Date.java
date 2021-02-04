@@ -1,6 +1,3 @@
-// 13184648
-// agodda02@mail.bbk.ac.uk
-
 public class Date {
     
     public int day;

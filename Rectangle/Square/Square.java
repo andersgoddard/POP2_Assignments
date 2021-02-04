@@ -1,6 +1,3 @@
-// 13184648
-// agodda02@mail.bbk.ac.uk
-
 public class Square extends Rectangle
 {
 	Square( int xLowerLeft, int yLowerLeft, int sideLength )

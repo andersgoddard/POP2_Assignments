@@ -1,0 +1,5 @@
+String sum (StringSum.java).
+
+For the purposes of this exercise, let us say that the letter a has the value 1, the letter b has the value 2, and so on, up to the letter z, which has the value 26. Write a method sum that, given a String, returns an int equal to the sum of the values of all of the letters in the String. Note that the value of a letter should be computed in a case-insensitive way, so for example, both the lower-case letter a and the upper-case letter A are considered to have the value 1. (Non-letters should be ignored; or, they might be considered to have the value 0.)
+
+As an example, sum( “Ace” ) should return 9, since the values of the letters in the String are 1, 3, and 5, which add up to 9. As another example sum( “A cab!” ) should return 7, since the values of the letters in the String are 1, 3, 1, and 2, which add up to 7.

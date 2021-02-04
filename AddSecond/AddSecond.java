@@ -1,7 +1,3 @@
-// 13184648
-// agodda02@mail.bbk.ac.uk
-
-
 import java.io.*;
 import java.util.*;
 

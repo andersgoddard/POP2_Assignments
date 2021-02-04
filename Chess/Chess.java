@@ -1,9 +1,5 @@
-// 13184648
-// agodda02@mail.bbk.ac.uk
-
 import java.io.*;
 import java.util.*;
-import java.lang.Math.*;
 
 public class Chess {
 

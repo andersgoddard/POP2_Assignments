@@ -1,6 +1,3 @@
-// 13184648
-// agodda02@mail.bbk.ac.uk
-
 import java.util.*;
 
 public class CenteredNumber {
