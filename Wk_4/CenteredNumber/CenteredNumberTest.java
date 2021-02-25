@@ -132,4 +132,16 @@ public class CenteredNumberTest extends TestCase {
 		num.add(one);
 		assertEquals("z", num.toString());		
 	}
+	
+	public void testNegating(){
+		CenteredNumber num1 = new CenteredNumber("nt");
+		CenteredNumber num2 = new CenteredNumber("NT");
+		num1.add(num2);
+		assertEquals("z", num1.toString());
+		
+		num1 = new CenteredNumber("zzzznt");
+		num2 = new CenteredNumber("zzzzNT");
+		num1.add(num2);
+		assertEquals("z", num1.toString());
+	}
 }

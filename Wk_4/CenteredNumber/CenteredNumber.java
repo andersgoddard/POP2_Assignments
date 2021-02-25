@@ -1,3 +1,6 @@
+// 13184648
+// agodda02@mail.bbk.ac.uk
+
 import java.util.*;
 
 public class CenteredNumber {
@@ -58,16 +61,17 @@ public class CenteredNumber {
 		StringBuilder buffer = new StringBuilder();
 		boolean leadingZero = true;
 		
-		if (s.equals("z")) return "z";
-		
-		for (int i = 0; i < s.length(); i++){
+		for (int i = 0; i < s.length(); i++){	
 			if (!leadingZero || s.charAt(i) != 'z'){
 				buffer.append(s.charAt(i));
 				leadingZero = false;
 			}
 		}
 		
-		return buffer.toString();
+		if (buffer.toString().length() == 0) 
+			return "z";
+		else 	
+			return buffer.toString();
 	}
 	
 	public void negate(){
@@ -130,7 +134,7 @@ public class CenteredNumber {
 				
 		if (carry != 0) sum.append(numberToChar.get(carry));
 		sum.reverse();
-		
+				
 		this.centeredNumberString = removeLeadingZeroes(sum.toString());
 	}
 	
